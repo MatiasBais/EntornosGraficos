@@ -1,2 +1,2 @@
 # Entornos Graficos
-Trabajos de la materia Entornos Gráficos
+Trabajos de la materia Entornos Gráficos.
