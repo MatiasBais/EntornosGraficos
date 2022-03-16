@@ -32,7 +32,33 @@ d.
     http-equiv="expires" indica que pasada esa fecha(content) el navegador debe solicitar la pagina nuevamente al server y no utilizar la en cache
 
 e.
+   <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help">Resumen HTML </a>
 
-    <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" 
-    rel="help">Resumen HTML </a>
+   a indica un hyperlink, en href se indica la url, type especifica el tipo de contenido, hreflang el idioma, charset el conjunto de caracteres y rel la relacion entre los dos documentos
+
+f.
+    <table width="200" summary="Datos correspondientes al ejercicio vencido">
+    <caption align="top"> Título </caption>
+        <tr>
+            <th scope="col">&nbsp;</th>
+            <th scope="col">A</th>
+            <th scope="col">B</th>
+            <th scope="col">C</th>
+        </tr>
+        <tr>
+            <th scope="row">1º</th>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th scope="row">2º</th>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+
+    Es la estructura de una tabla, tr indica cada fila y dentro de estas, con td(th para el header), se indican los valores de cada columna
+    con scope indicamos si esa celda es header de columna o de fila.
 
