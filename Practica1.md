@@ -10,27 +10,34 @@
 
 4. DTD: declaración del tipo de documento. Se ubica en la primera linea del archivo HTML.
    Segun HTML 4.01, una declaracion transitoria se puede escribir de la siguiente manera:
-   <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
    Aunque con HTML5 se puede resumir a:
-   <!DOCTYPE HTML>
+    
+    <!DOCTYPE HTML>
 
 5. Los metadatos son elementos de HTML que muestran información sobre la propia página web. Se encuentran en el head. Por ejemplo: description, que contiene una descripcion resumida sobre la pagina. Author, información sobre el autor de la pagina. Copyright, informa sobre el copyright de la página.
 
 ## Ejercicio 2
 
 a. 
+
     <!-- Código controlado el día 12/08/2009 -->
     Pueden aparecer en cualquier parte del documento, sirven para comentar, este código es ignorado por el navegador
 
 b.
+
     <div id="bloque1">Contenido del bloque1</div
     div define un bloque de contenido, se encuentra en el body. id especifica un identificador unico para un elemento
 
 c.
+
     <img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
     img se usa para insertar una imagen en la pagina, alt es el texto que se mostrará al sobreponer el mouse en la foto, id, especifica un identificador unico. name especifica un nombre para el elemento que puede ser referenciado desde JS y tambien se utiliza al enviar la informacion de los form. width y height especifican un ancho y altura, respectivamente.
 
 d.
+
     <meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
     <meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
 
@@ -38,11 +45,13 @@ d.
     http-equiv="expires" indica que pasada esa fecha(content) el navegador debe solicitar la pagina nuevamente al server y no utilizar la en cache
 
 e.
-   <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help">Resumen HTML </a>
 
-   a indica un hyperlink, en href se indica la url, type especifica el tipo de contenido, hreflang el idioma, charset el conjunto de caracteres y rel la relacion entre los dos documentos
+    <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help">Resumen HTML </a>
+
+    a indica un hyperlink, en href se indica la url, type especifica el tipo de contenido, hreflang el idioma, charset el conjunto de caracteres y rel la relacion entre los dos documentos
 
 f.
+
     <table width="200" summary="Datos correspondientes al ejercicio vencido">
     <caption align="top"> Título </caption>
         <tr>
@@ -73,6 +82,7 @@ f.
 ## Ejercitacion 3
 
 a. 
+
     <a href="http://www.google.com.ar">Click aquí para ir a Google</a>
 
     Abre google.com en la misma pestaña
